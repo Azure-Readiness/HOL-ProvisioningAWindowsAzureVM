@@ -60,19 +60,19 @@ The first task is to create a new Virtual Network to your subscription with a ne
 
 1. Open a browser a go to [https://manage.windowsazure.com/](https://manage.windowsazure.com/). When prompted, login with your **Windows Azure** credentials. In the Windows Azure Portal, click **New**, select **Networks** | **Virtual Network** and then click **Custom Create**.
 
-	![Virtual Network custom create](Images/virtual-network-custom-create.png?raw=true)
+	![Virtual Network custom create](images/virtual-network-custom-create.png?raw=true)
 
 	_Virtual Network custom create_
 
 1. On the Virtual Network Details page, in the Name text box, type _domainvnet_. Select _Create a new affinity group_ option from the **affinity group** dropdown list. Name the affinity group _adag_ and choose the region which is closest to you. Click the arrow button to continue.
 
-	![creating a new virtual network](Images/creating-a-new-virtual-network.png?raw=true)
+	![creating a new virtual network](images/creating-a-new-virtual-network.png?raw=true)
 
 	_Creating a new virtual network_
 
 1. At the top right corner, select the **CIDR** option. Then set the Address Space Starting IP value to _10.0.0.0_ and its Address CIDR to _/16_. Finally, add a subnet named _AppSubnet_ with a Starting IP of _10.0.10.0_ and an Address CIDR of _/24_. Click the arrow button to continue to the next step.
 
-	![Adding an address space and subnets](Images/adding-an-address-space-and-subnets.png?raw=true)
+	![Adding an address space and subnets](images/adding-an-address-space-and-subnets.png?raw=true)
 
 	_Adding an address space and subnets_
 
